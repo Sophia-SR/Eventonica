@@ -3,5 +3,14 @@ p {
 }
 
 body{
-    background-color: powderblue;
+    background-color:powderblue;
+}
+h1{
+    font-family: 'Sigmar One', cursive;
+    font-size: 3em;
+
+}
+h3{
+    font-family:'Sigmar One', cursive;
+    font-size:1.5em;
 }
