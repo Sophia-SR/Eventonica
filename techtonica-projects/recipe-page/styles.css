@@ -14,3 +14,7 @@ h3{
     font-family:'Sigmar One', cursive;
     font-size:1.5em;
 }
+
+.description {
+    width:600px
+}
