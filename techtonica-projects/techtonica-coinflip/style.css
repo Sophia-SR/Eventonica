@@ -1,0 +1,67 @@
+.wrap{
+    background-color: rgba(226, 184, 193, 0.384);
+    border: .5em solid;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+    padding-bottom: 5rem;
+
+    /* border-radius: 5%; */
+   
+}
+
+body{
+    background-image: url(https://media.istockphoto.com/vectors/seamless-pattern-with-colorful-sprinkles-donut-glaze-background-vector-id926369812?k=6&m=926369812&s=612x612&w=0&h=ZkqGSnMChL1htx3AqC_mWc01gSUYvBU-QkcmMooJxns=);
+    font-family: 'Pacifico', sans-serif;
+    font-weight: .22;
+    
+}
+
+#Header{
+    text-align:center ;
+    top: 50%; 
+    right: 50%;
+    font-family: 'Pacifico';
+    font-size: 4em;
+    font-weight: 700;
+    
+}
+
+p{
+    font-size: 72px;
+    background: -webkit-linear-gradient(#fc5c7d,#6a82fb,#fc5c7d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(236, 10, 78, 0);
+  }
+
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+
+}
+
+.playerBox1{
+    border : 6px solid rgb(153, 201, 153);
+    float: left;
+    text-align: center;
+    background: rgba(105, 207, 101, 0.116);
+    padding: 1em;
+    margin-top: 2em;
+    box-shadow: 0 0.5em rgba(166, 68, 175, 0.2);
+    border-radius: 0.5em;
+    
+}
+.playerBox2{
+    border : 6px solid rgb(153, 201, 153);
+    float: right;
+    text-align: center;
+    background: rgba(105, 207, 101, 0.116);
+    padding: 1em;
+    margin-top: 2em;
+    box-shadow: 0 0.5em rgba(166, 68, 175, 0.2);
+    border-radius: 0.5em;
+
+}
