@@ -1,0 +1,55 @@
+
+#col-header{
+  float: left;
+  width: 50%;
+  padding: 5px;
+
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 50px;
+ 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+label{
+  width: 7rem;
+  text-align: left;
+  display: inline-block; 
+}
+
+#deletebtn{
+  background-color: red;
+}
+
+
+
+#eventForm{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  margin-left: auto;
+
+}
+
+#userForm{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  margin-left: auto;
+}
+

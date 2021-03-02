@@ -1,0 +1,185 @@
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="models.js"></script>
+    <script defer src="eventonica.js"></script>
+</head>
+
+<body>
+<header id="main-header">
+
+  <div id="col-header">    
+   <h1 id="header">Eventonica Admin</h1>
+  </div>   
+
+  <div id ="col-header">    
+    <h1 id="header">Eventonica User</h1>
+   </div> 
+
+</header>  
+    <div class ="row">
+        <div class ="column">
+        <div id="main">
+            <h2>Event Management</h2>
+                 <form action="." method="post" name="eventForm" id="eventForm">
+            <h2><input type="submit" value="Add Event" id="addEventBtn"></h2>
+        
+                <label>Event Name:</label>
+                 <input type="text" name="eName" id="eName">
+                <br>
+                <label>Event Date:</label>
+                 <input type="date" name="eDate" id="eDate">
+                <br>
+                <label>Event Time:</label>
+                 <input type="text" name="eTime" id ="eTime">
+                <br>
+                <label>Event Location:</label>
+                 <input type="text" name="eLocation" id="eLocation">
+                <br>
+                <label>Event Host:</label>
+                 <input type="text" name="eHost" id= "eHost" >
+                <span id="result"></span>
+                <br>
+            </form>
+         </div> 
+    
+    <div class="eventList" id="eventList">
+        <table class="eventTable" id="eventTable">
+                <thead>
+                  <tr>
+                    <th>Event Name:</th>
+                    <th>Event Date:</th>
+                    <th>Event Time:</th>
+                    <th>Event Location:</th>
+                    <th>Event Host:</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody id="eventList"></tbody>
+              </table>
+        <ul id="eventList">
+
+        </ul>
+    </div> 
+    <div class="userAddEdit">
+        <h2>User Management</h2>
+        <form action="." method="post" name="userForm" id="userForm">
+            <h2><input type="submit" value="Add User" id="addUserBtn"></h2>
+        <div id="userForm">
+                <form action="." method="post" name="userForm">
+                    <label>Username:</label>
+                    <input type="text" name="userName" id="userName">
+                    <br>
+                    <label>Password:</label>
+                    <input type="text" name="userEmail" id="userEmail">
+                    <br>
+                    <label>Email:</label>
+                    <input type="text" name="userPass" id ="userPass">
+                    <span id="result"></span>
+                    <br>
+                </form>
+        </div>
+        <table class="userTable" id="userTable">
+            <thead>
+              <tr>
+                <th>UserName:</th>
+                <th>Password/Updated Password:</th>
+                <th>Email:</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody id="userList"></tbody>
+          </table>
+        <div class="userList">
+            <ul id="userList">
+
+            </ul>
+        </div>
+        </div> 
+        </div>
+        <div class="column">    
+         <div id="main">
+            <h2>Eventonica User </h2> 
+                 <form action="." method="post" name="eventForm" id="eventForm">
+            <h2><input type="submit" value="Add Event" id="addEventBtn"></h2>
+        
+                <label>Event Name:</label>
+                 <input type="text" name="eName" id="eName">
+                <br>
+                <label>Event Date:</label>
+                 <input type="text" name="eDate" id="eDate">
+                <br>
+                <label>Event Time:</label>
+                 <input type="text" name="eTime" id ="eTime">
+                <br>
+                <label>Event Location:</label>
+                 <input type="text" name="eLocation" id="eLocation">
+                <br>
+                <label>Event Host:</label>
+                 <input type="text" name="eHost" id= "eHost" >
+                <span id="result"></span>
+                <br>
+            </form>
+         </div>       
+         <div class="eventList">
+            <table class="eventTable">
+                <thead>
+                  <tr>
+                    <th>Event Name:</th>
+                    <th>Event Date:</th>
+                    <th>Event Time:</th>
+                    <th>Event Location:</th>
+                    <th>Event Host:</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody id="book-list"></tbody>
+              </table>
+            <ul id="eventList">
+    
+            </ul>
+        </div> 
+        <div class="userAddEdit">
+            <h2>User Management</h2>
+            <form action="." method="post" name="userForm" id="userForm">
+                <h2><input type="submit" value="Add User" id="addUserBtn"></h2>
+            <div id="userForm">
+                    <form action="." method="post" name="userForm">
+                        <label>Username:</label>
+                        <input type="text" name="userName" id="userName">
+                        <br>
+                        <label>Password:</label>
+                        <input type="" name="" id="">
+                        <br>
+                        <label>Email:</label>
+                        <input type="" name="" id ="">
+                        <span id="result"></span>
+                        <br>
+                    </form>
+            </div>
+            <table class="eventTable">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody id=""></tbody>
+              </table>
+            <div class="userList">
+                <ul id="userList">
+    
+                </ul>
+            </div>
+            </div> 
+        </div>
+    
+    
+</div>
+        </body>
+</html>
+
